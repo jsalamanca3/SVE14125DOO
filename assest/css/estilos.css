@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+}
+body {
+    background-color: #212121;
+    width: 100%;
+    height: 100vh;
+    padding: 3% 5%;
+
+}
+
+header,
+section,
+footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 30vh;
+}
+.title-h {
+    font-size: 50px;
+}
+span {
+    font-size: 40px;
+}
+.btn-open {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: chartreuse;
+    font-size: 50px;
+    font-family: "Platypi", serif;
+    border: none;
+}
+button:hover {
+    background-color: blue;
+}
+
+.p-footer {
+    font-size: 20px;
+}
